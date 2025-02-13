@@ -1,0 +1,36 @@
+assets ->
+ A propos du cinéma...svg
+ etoile.png
+ facebook.png
+ instram-filled.png
+ logocine_icone.png
+ logocine_simple.png
+ logocine_texte_bas.png
+ logocine_texte_haut.png
+ logocine_texte.png
+ logocine.png
+ logocine.svg
+ logotype.svg
+ twitter.png
+ voir les films.svg
+ voir les séries.svg
+
+img ->
+ 310-to-yuma-image1.jpg
+ breaking-bad-image1.jpg
+ curtains 1kino.png
+ dallas-buyers-club-image1.jpg
+ fond.png
+ gerry-img4.jpg
+ image2 5.png
+ Insidious.jpg
+ presentationfilms.jpg
+ ramppart-image4.jpg
+ salle1 1kino.png
+ seats 1kino.png
+ Take shelter.jpg
+ theater-projector 1kino.png
+ teatre 1kino.png
+
+
+ (Le 23/01/2025) => 57 minutes on voit les images d'intagration

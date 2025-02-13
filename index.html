@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>MonCiné | Accueil</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Meta SEO -->
+  <meta name="description" content="MonCiné, un cinéma de quartier installé dans un ancien théâtre art-déco, proposant une sélection inédite de films rares et une soirée séries chaque vendredi.">
+  
+  <!-- Feuilles de style -->
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <!-- En-tête -->
+  <header>
+    <!-- Bandeau sous le header -->
+    <div class="bandeau-texte">
+      <div class="logo-bandeau">
+        <img src="assets/logotype.svg" alt="MonCiné, un cinéma de quartier">
+      </div>
+      <div class="texte">
+        <p>Un cinéma où l’on diffuse des films<br>peu ou pas vus au cinéma, et des séries !</p>
+      </div>
+    </div>
+
+    <!-- Zone de navigation (logo + menu) -->
+    <div class="navigation">
+      <div class="logo-header">
+        <img src="assets/logocine.svg" alt="MonCiné, le cinéma de quartier">
+      </div>
+
+      <nav class="menuprincipal" aria-label="Menu principal">
+        <ul>
+          <li><a href="index.html" class="active">Accueil</a></li>
+          <li><a href="apropos.html">À propos</a></li>
+          <li><a href="films.html">Films</a></li>
+          <li><a href="series.html">Séries</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Contenu principal -->
+  <main>
+<!-- SECTION PRESENTATION (3 colonnes : texte / image / image) -->
+<section class="presentation">
+  <img src="img/theater 1kino.png" alt="Scène de théâtre" class="presentation-img">
+  <article class="presentation-texte">
+    <p>
+      Dans un ancien théâtre, le cinéma <h1 id="moncine-text">MONCINÉ</h1>
+
+      reprend les codes art-déco du début du siècle, 
+      un équipement dernier cri et une programmation inédite !
+    </p>
+    <p>
+      <a href="apropos.html">À propos du cinéma...</a>
+    </p>
+  </article>
+  <img src="img/salle1 1kino.png" alt="Salle de cinéma en vue aérienne" class="presentation-img">
+</section>
+
+
+    <!-- SECTION DECOUVRIR : Série du vendredi (2 colonnes), puis sélection de films (3 colonnes) -->
+    <section class="decouvrir">
+      <!-- La série du vendredi -->
+      <aside class="vendredi">
+        <div class="image-large">
+          <img src="img/presentationfilms.jpg" alt="Capture d'un film">
+        </div>
+        <div class="description_droite">
+          <h2>La série <br>du vendredi</h2>
+          <p>
+            De manière inédite, le cinéma <span>monciné</span> propose une soirée série le vendredi. 
+            De 20h à 23h, vous pouvez profiter jusqu’à 3 épisodes d’une série sélectionnée selon les mêmes critères que les films.
+          </p>
+          <a href="series.html">
+            <img src="assets/voir les séries.svg" alt="Voir les séries">
+          </a>
+        </div>
+      </aside>
+
+      <!-- Notre sélection de films -->
+      <aside class="films">
+        <div class="image_etroite gauche">
+          <img src="img/Take shelter.jpg" alt="Affiche de Take Shelter">
+        </div>
+        <div class="description_centrale">
+          <h2>Notre sélection <br>de <span>films</span></h2>
+          <p>
+            Le cinéma propose une sélection de films rares, peu ou jamais diffusés au cinéma 
+            et/ou qui présentent, dans l’histoire du cinéma, une particularité importante, 
+            dans l’esprit du quotidien historique <span>monciné</span>. 
+            Pour tout public et dans tous les styles...
+          </p>
+          <a href="films.html">
+            <img src="assets/voir les films.svg" alt="Voir les films">
+          </a>
+        </div>
+        <div class="image_etroite droite">
+          <img src="img/Insidious.jpg" alt="Affiche de Insidious">
+        </div>
+      </aside>
+    </section>
+  </main>
+
+  <!-- Pied de page -->
+  <footer>
+    <!-- Menu secondaire -->
+    <nav class="menu_secondaire" aria-label="Menu secondaire">
+      <ul>
+        <li><a href="index.html">Accueil</a></li>
+        <li><a href="apropos.html">À propos</a></li>
+        <li><a href="films.html">Films</a></li>
+        <li><a href="series.html">Séries</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+
+    <!-- Logo footer -->
+    <div>
+      <img class="log_footer" src="assets/logotype.svg" alt="MonCiné, un cinéma de quartier">
+    </div>
+
+    <!-- Coordonnées -->
+    <div class="coordonnees">
+      <div class="adresse">
+        <h2>MonCiné</h2>
+        <p>13 avenue du Petit Chemin</p>
+        <p>64240 Hasparren</p>
+      </div>
+      <div class="courriel">
+        <a href="mailto:moncine@gmail.com">moncine@gmail.com</a>
+      </div>
+      <div class="reseaux">
+        <ul>
+          <li><a href="#"><img src="assets/facebook.png" alt="Facebook"></a></li>
+          <li><a href="#"><img src="assets/instagram-filled.png" alt="Instagram"></a></li>
+          <li><a href="#"><img src="assets/twitter.png" alt="Twitter"></a></li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- Bandeau pied (fauteuils rouges) + mention -->
+    <div class="bandeau_pied">
+      <img src="img/" alt="Bandeau représentant un rang de fauteuil rouge de cinéma">
+      <div class="copy">
+        <p>2024 | Tous droits réservés | MonCiné</p>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>

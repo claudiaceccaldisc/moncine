@@ -1,0 +1,11 @@
+{
+    "configurations": [
+
+        {
+            "name": "index.html",
+            "type": "browser",
+            "workingDir": "C:\\Users\\guich\\Documents\\StrasbourgUniversite\\Cours\\UE 5.2\\Integration\\Integration-maquette",
+            "url": "file:///C:/Users/guich/Documents/StrasbourgUniversite/Cours/UE%205.2/Integration/Integration-maquette/index.html"
+        }
+    ]
+}
